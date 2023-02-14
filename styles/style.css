@@ -20,6 +20,13 @@ p {
   animation-timing-function: cubic-bezier(.1,-.6,.2,0);
 }
 
+@font-face {
+  font-family: "EmojiSymbols";
+  src: url('/fonts/EmojiSymbols-Regular.woff') format('woff');
+  text-decoration: none;    
+  font-style: normal;
+}
+
 @-webkit-keyframes HeartAppearance {
 0% {opacity: 0;}
 100% {opacity: 1;}
