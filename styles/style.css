@@ -18,6 +18,8 @@ p {
   animation-name: HeartAppearance;
   animation-duration: 2s;
   animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+  color: transparent;
+  text-shadow: 0 0 rgb(218, 36, 36);
 }
 
 @font-face {
