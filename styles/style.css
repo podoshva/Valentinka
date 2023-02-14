@@ -14,7 +14,7 @@ p {
 }
 
 .heart {
-  font-size: 200px;
+  font-size: calc(2em + 4vw);
   animation-name: HeartAppearance;
   animation-duration: 2s;
   animation-timing-function: cubic-bezier(.1,-.6,.2,0);
