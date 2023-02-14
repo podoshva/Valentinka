@@ -1,0 +1,41 @@
+body {
+  font-family: 'Zeyada', cursive;
+  font-size: calc(2em + 3vw);
+  color: rgb(218, 36, 36);
+  background-color: rgb(27, 27, 27);
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0px;
+}
+
+.heart {
+  font-size: 300px;
+  animation-name: HeartAppearance;
+  animation-duration: 2s;
+  animation-timing-function: cubic-bezier(.1,-.6,.2,0);
+}
+
+@-webkit-keyframes HeartAppearance {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-o-keyframes HeartAppearance {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@-moz-keyframes HeartAppearance {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
+
+@keyframes HeartAppearance {
+0% {opacity: 0;}
+100% {opacity: 1;}
+}
