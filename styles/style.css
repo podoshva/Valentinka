@@ -23,7 +23,7 @@ p {
 }
 
 @font-face {
-  font-family: "EmojiSymbols";
+  font-family: 'Zeyada', cursive;
   src: url('/fonts/EmojiSymbols-Regular.woff') format('woff');
   text-decoration: none;    
   font-style: normal;
